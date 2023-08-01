@@ -1,8 +1,10 @@
-﻿using System.Collections;
+﻿using LinkedList.Model.Base;
+using LinkedList.Model.Base.Interface;
+using System.Collections;
 
 namespace LinkedList.Model
 {
-    public class DuplexLinkedList<T> : IEnumerable
+    public class DuplexLinkedList<T> : IEnumerable, IPrintList<DuplexLinkedList<T>>
     {
         /// <summary> Первый элемент списка. </summary>
         public DuplexNode<T> Head { get; private set; }

@@ -1,9 +1,11 @@
-﻿using System.Collections;
+﻿using LinkedList.Model.Base;
+using LinkedList.Model.Base.Interface;
+using System.Collections;
 
 namespace LinkedList.Model
 {
     /// <summary> Односвязный список. </summary>
-    public class LinkedList<T> : IEnumerable, IPrintList
+    public class LinkedList<T> : IEnumerable, IPrintList<LinkedList<T>>
     {
         /// <summary> Первый элемент списка. </summary>
         public Node<T> Head { get; private set; }

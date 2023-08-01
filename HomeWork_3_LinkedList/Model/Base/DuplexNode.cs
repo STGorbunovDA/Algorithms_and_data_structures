@@ -1,6 +1,6 @@
-﻿namespace LinkedList.Model
+﻿namespace LinkedList.Model.Base
 {
-    public class DuplexNode<T> 
+    public class DuplexNode<T>
     {
         public T Data { get; set; }
         public DuplexNode<T> Previous { get; set; }
