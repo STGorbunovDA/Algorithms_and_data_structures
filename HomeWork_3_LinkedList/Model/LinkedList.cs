@@ -3,7 +3,7 @@
 namespace LinkedList.Model
 {
     /// <summary> Односвязный список. </summary>
-    public class LinkedList<T> : IEnumerable
+    public class LinkedList<T> : IEnumerable, IPrintList
     {
         /// <summary> Первый элемент списка. </summary>
         public Node<T> Head { get; private set; }
