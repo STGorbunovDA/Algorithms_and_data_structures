@@ -1,5 +1,4 @@
-﻿
-using LinkedList.Model;
+﻿using LinkedList.Model;
 
 namespace LinkedList
 {
@@ -45,6 +44,6 @@ namespace LinkedList
 
             Console.ReadLine();
         }
-        
+
     }
 }
